@@ -21,5 +21,8 @@
 .\objects\stepmotor.o: .\FreeRTOS\inc\semphr.h
 .\objects\stepmotor.o: .\UserSource\inc\io.h
 .\objects\stepmotor.o: .\UserSource\inc\stepmotor.h
+.\objects\stepmotor.o: .\UserSource\inc\timer.h
 .\objects\stepmotor.o: .\UserSource\inc\led.h
 .\objects\stepmotor.o: .\UserSource\inc\usart.h
+.\objects\stepmotor.o: .\UserSource\inc\spi.h
+.\objects\stepmotor.o: .\UserSource\inc\w25q16.h

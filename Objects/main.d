@@ -22,4 +22,7 @@
 .\objects\main.o: .\UserSource\inc\stepmotor.h
 .\objects\main.o: .\UserSource\inc\main.h
 .\objects\main.o: .\UserSource\inc\usart.h
+.\objects\main.o: .\UserSource\inc\timer.h
 .\objects\main.o: .\UserSource\inc\led.h
+.\objects\main.o: .\UserSource\inc\spi.h
+.\objects\main.o: .\UserSource\inc\w25q16.h
