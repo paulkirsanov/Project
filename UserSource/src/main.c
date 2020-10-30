@@ -268,6 +268,7 @@ void vBootLoader(void *pvParameters)
 	#endif
 	
 	NVIC_DisableIRQ(TIM2_IRQn);
+	NVIC_DisableIRQ(TIM3_IRQn);
 	vTaskSuspend(hBlinker);
 	vTaskSuspend(hSender);
 	
@@ -320,6 +321,7 @@ void vBootLoader(void *pvParameters)
 	#endif
 	
 	NVIC_EnableIRQ(TIM2_IRQn);
+	NVIC_EnableIRQ(TIM3_IRQn);
 	vTaskResume(hBlinker);
 	vTaskResume(hSender);
 	vTaskSuspend(hBlinkerBootLoader);
